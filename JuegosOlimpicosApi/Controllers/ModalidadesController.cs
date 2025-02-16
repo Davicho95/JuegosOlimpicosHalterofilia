@@ -12,12 +12,10 @@ namespace JuegosOlimpicosApi.Controllers
     public class ModalidadesController : BaseApiController
     {
         private readonly IModalidadesRepositoryAsync _modalidad;
-        private readonly ILogService _logs;
 
-        public ModalidadesController(IModalidadesRepositoryAsync modalidad, ILogService logs)
+        public ModalidadesController(IModalidadesRepositoryAsync modalidad)
         {
             _modalidad = modalidad;
-            _logs = logs;
         }
 
         [HttpGet("ObtenerModalidades")]

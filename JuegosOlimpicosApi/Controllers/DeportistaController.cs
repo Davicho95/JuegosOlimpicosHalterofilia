@@ -12,12 +12,10 @@ namespace JuegosOlimpicosApi.Controllers
     public class DeportistaController : BaseApiController
     {
         private readonly IDeportistaRepositoryAsync _deportista;
-        private readonly ILogService _logs;
 
-        public DeportistaController(IDeportistaRepositoryAsync deportista, ILogService logs)
+        public DeportistaController(IDeportistaRepositoryAsync deportista)
         {
             _deportista = deportista;
-            _logs = logs;
         }
 
         [HttpGet("ObtenerDeportistas")]

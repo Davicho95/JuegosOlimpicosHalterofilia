@@ -14,12 +14,10 @@ namespace JuegosOlimpicosApi.Controllers
     public class IntentosDeportistasController : BaseApiController
     {
         private readonly IIntentosDeportistaRepositoryAsync _intentosDeportista;
-        private readonly ILogService _logs;
 
-        public IntentosDeportistasController(IIntentosDeportistaRepositoryAsync intentosDeportista, ILogService logs)
+        public IntentosDeportistasController(IIntentosDeportistaRepositoryAsync intentosDeportista)
         {
             _intentosDeportista = intentosDeportista;
-            _logs = logs;
         }
 
         [HttpGet("ObtenerResultadosDeportistas")]

@@ -12,12 +12,10 @@ namespace JuegosOlimpicosApi.Controllers
     public class PaisController : BaseApiController
     {
         private readonly IPaisRepositryAsync _pais;
-        private readonly ILogService _logs;
 
-        public PaisController(IPaisRepositryAsync pais, ILogService logs)
+        public PaisController(IPaisRepositryAsync pais)
         {
             _pais = pais;
-            _logs = logs;
         }
 
         [HttpGet("ObtenerPaises")]

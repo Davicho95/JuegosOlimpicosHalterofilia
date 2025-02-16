@@ -23,16 +23,6 @@ namespace Persistencia.Contexto
         {
 
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-
-            //modelBuilder.Entity<Pais>()
-            //    .HasMany(p => p.Deportistas)
-            //    .WithOne(d => d.Pais)
-            //    .HasForeignKey(d => d.PaisId);
-
-            //modelBuilder.Entity<Deportista>()
-            //    .HasMany(d => d.Intentos)
-            //    .WithOne(i => i.Deportista)
-            //    .HasForeignKey(i => i.DeportistaId);
         }
     }
 }

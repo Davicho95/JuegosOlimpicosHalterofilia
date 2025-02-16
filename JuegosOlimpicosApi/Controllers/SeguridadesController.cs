@@ -10,12 +10,10 @@ namespace JuegosOlimpicosApi.Controllers
     public class SeguridadesController : BaseApiController
     {
         private readonly ISeguridades _seguridades;
-        private readonly ILogService _logs;
 
-        public SeguridadesController(ISeguridades seguridades, ILogService logs)
+        public SeguridadesController(ISeguridades seguridades)
         {
             _seguridades = seguridades;
-            _logs = logs;
         }
 
         [HttpPost("GenerarToekn")]
