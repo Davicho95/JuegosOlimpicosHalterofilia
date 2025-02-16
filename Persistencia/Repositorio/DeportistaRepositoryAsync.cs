@@ -75,7 +75,7 @@ namespace Persistencia.Repositorio
                     CodigoPais = request.CodigoPais,
                     Edad = request.Edad,
                     Identificacion = request.Identificacion,
-                    PrimerApellido = request.PrimerNombre,
+                    PrimerApellido = request.PrimerApellido,
                     PrimerNombre = request.PrimerNombre,
                     SegundoApellido = request.SegundoApellido,
                     SegundoNombre = request.SegundoNombre
