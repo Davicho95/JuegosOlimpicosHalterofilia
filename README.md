@@ -22,3 +22,7 @@ GROUP BY
     d.SegundoApellido
 ORDER BY 
     TotalPeso DESC;
+
+
+Link video:
+
