@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuegosOlimpicosApi", "JuegosOlimpicosApi\JuegosOlimpicosApi.csproj", "{7C252796-E203-4D01-9B71-56060E242BAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{7461BB9B-96A4-40D5-A6B8-191C245BE235}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{C2E4D5D8-219A-4A49-B29C-24330D693129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistencia", "Persistencia", "{47A0761B-2A55-44AB-AE79-CECAD0D972EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{21C105C5-EC15-4346-AAB0-D5903A3BA98D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{F92723F5-5ACC-4851-B471-D44331F1DAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion", "Aplicacion\Aplicacion.csproj", "{69146777-2B3A-4160-A030-15AE9F4EBF8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "Persistencia\Persistencia.csproj", "{12C8D285-9007-4985-B189-3B31DBDBF5C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C252796-E203-4D01-9B71-56060E242BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C252796-E203-4D01-9B71-56060E242BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C252796-E203-4D01-9B71-56060E242BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C252796-E203-4D01-9B71-56060E242BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92723F5-5ACC-4851-B471-D44331F1DAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92723F5-5ACC-4851-B471-D44331F1DAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92723F5-5ACC-4851-B471-D44331F1DAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92723F5-5ACC-4851-B471-D44331F1DAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69146777-2B3A-4160-A030-15AE9F4EBF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69146777-2B3A-4160-A030-15AE9F4EBF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69146777-2B3A-4160-A030-15AE9F4EBF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69146777-2B3A-4160-A030-15AE9F4EBF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C8D285-9007-4985-B189-3B31DBDBF5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C8D285-9007-4985-B189-3B31DBDBF5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C8D285-9007-4985-B189-3B31DBDBF5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C8D285-9007-4985-B189-3B31DBDBF5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C252796-E203-4D01-9B71-56060E242BAD} = {21C105C5-EC15-4346-AAB0-D5903A3BA98D}
+		{F92723F5-5ACC-4851-B471-D44331F1DAF2} = {C2E4D5D8-219A-4A49-B29C-24330D693129}
+		{69146777-2B3A-4160-A030-15AE9F4EBF8D} = {7461BB9B-96A4-40D5-A6B8-191C245BE235}
+		{12C8D285-9007-4985-B189-3B31DBDBF5C0} = {47A0761B-2A55-44AB-AE79-CECAD0D972EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96EB0397-E5D8-486F-814A-C3A4C8488133}
+	EndGlobalSection
+EndGlobal
